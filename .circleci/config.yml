@@ -6,7 +6,8 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/hello-build@0.0.7
+      - image: circleci/node:4.8.2-jessie
+
     steps:
       - run: echo "hello"
 
