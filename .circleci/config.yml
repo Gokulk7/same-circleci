@@ -12,6 +12,7 @@ jobs:
       - run: echo "Code Compile"
       - run: echo "Package"
       - run: echo "Unit Test"
+      - run: echo "Deploy"
 
 workflows:
     "Hello Workflow":
