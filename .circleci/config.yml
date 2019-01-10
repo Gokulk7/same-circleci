@@ -9,11 +9,11 @@ jobs:
       - image: circleci/node:4.8.2-jessie
 
     steps:
-      - run: echo "hello"
+      - run: echo "Code Compile"
+      - run: echo "Package"
+      - run: echo "Unit Test"
 
 workflows:
     "Hello Workflow":
         jobs:
           - hello/hello-build
-          - build
-
